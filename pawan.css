@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 300% 120%;
+    animation: linearGradient 6s ease infinite;
+}
+
+@keyframes linearGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+}
+
+.nav li {
+    margin: 7px;
+    padding: 5px;
+    /* font-size: large; */
+}
+
+.nav a {
+    color: antiquewhite;
+}
+
+.nav a:hover {
+    color: rgb(105, 101, 101);
+    font-size: large;
+    transition: 0.8s;
+}
+
+.profile-pawan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0px;
+    background-color: antiquewhite;
+}
+
+.profile-pawan img {
+    width: 150px;
+    height: 150px;
+    border: rgb(109, 109, 109) ridge 5px;
+    border-radius: 50%;
+
+}
+
+.profile-pawan h3 {
+    color: #2e425cc4;
+    padding-bottom: 40px;
+}
+
+.image-gallery-h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: cornflowerblue;
+    font-size: x-large;
+}
+
+.image-gallery-images img {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 30%;
+}
+
+.image-gallery-images {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-gallery {
+
+    background-color: rgb(215, 250, 238);
+}
+
+.about-h3 {
+    font-size: x-large;
+    text-align: center;
+    padding: 20px;
+    color: #ff183bd5;
+}
+
+.about-h3 h3 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.about-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin: 30px 150px; */
+    gap: 100px;
+    padding-top: 20px;
+}
+
+.about-images img {
+    width: 180px;
+    height: 180px;
+    border: black ridge 5px;
+    border-radius: 50%;
+}
+
+.about-para {
+    padding: 50px;
+    font-style: italic;
+    text-indent: 20px;
+    font-family: cursive;
+    line-height: 25px;
+}
+
+#about {
+    background-color: rgba(47, 79, 79, 0.158);
+}
+
+.skills-h3 {
+    padding: 20px;
+    font-size: larger;
+    text-align: center;
+    color: rgb(86, 133, 117);
+}
+
+.skills-h3 h3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skills-images ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.skills-images-two {
+    width: 165px;
+    height: 165px;
+    border: black ridge 5px;
+    border-radius: 50%;
+
+}
+
+.educational-h3 {
+    text-align: center;
+    font-size: x-large;
+    padding: 30px;
+    padding-top: 40px;
+    color: rgb(0, 151, 151);
+}
+
+.educational-list {
+    padding: 40px;
+    padding-top: 25px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.educational-list li {
+    font-size: larger;
+    
+    color: darkolivegreen;
+}
+
+#skills {
+    background-color: rgb(250, 236, 219);
+}
+
+#downloads {
+    background-color: aquamarine;
+
+}
+
+#downloads h2{
+    padding-top: 70px;
+}
+
+.downloads-h2 {
+    text-align: center;
+    padding: 40px;
+    color: rgb(143, 122, 122);
+}
+
+.download-list {
+    padding: 40px 100px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    row-gap: 50px;
+
+}
+
+.download-list button {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #ef8172;
+}
+
+.download-list button a {
+    color: black;
+    font-size: 15px;
+}
+
+
+#social-links {
+    padding: 20px;
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 300% 120%;
+    animation: linearGradient 6s ease infinite;
+}
+
+#social-links p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: cursive;
+}
